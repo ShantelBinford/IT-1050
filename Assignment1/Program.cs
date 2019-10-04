@@ -36,7 +36,6 @@ namespace Assignment1
 
             const double CM_MULTIPLER = 2.54;
             const double INCHES_PER_FOOT = 12;
-
             int heightFeet;
             double heightInches;
 
@@ -63,7 +62,7 @@ namespace Assignment1
             age = int.Parse(Console.ReadLine());
 
             Console.WriteLine("yes");
-            bool = Console.ReadLine().ToLower().StartsWith("y");
+            isCitizen = Console.ReadLine().ToLower().StartsWith("y", StringComparison.CurrentCulture);
 
             Console.WriteLine(age >= 18 && isCitizen);
 
