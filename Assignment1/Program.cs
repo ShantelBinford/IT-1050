@@ -28,7 +28,7 @@ namespace Assignment1
 
             string fullName = firstName + " " + middleName + " " + lastName;
 
-            Console.WriteLine(fullName);
+            Console.WriteLine("fullName");
 
             Console.ReadKey();
 
